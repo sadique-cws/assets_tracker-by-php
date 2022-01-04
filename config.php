@@ -48,5 +48,10 @@ function singleCalling($table,$cond){
     $data = mysqli_fetch_array($run);
     return $data;
 }
-
+//login required function 
+function loginRequired(){
+    if(!isset($_SESSION['admin'])){
+        refresh("login.php");
+    }
+}
 ?>
