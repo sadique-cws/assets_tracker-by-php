@@ -23,6 +23,10 @@
                <?php include "include/side.php";?>
             </div>
             <div class="col-10">
+                <div class="container my-4">
+                    <h2 class="h5 float-start">Manage Assets Type</h2>
+                    <a href="addAssetsType.php" class="btn btn-success float-end">Add Assets Type</a>
+                </div>
                 <table class="table">
                     <tr>
                         <th>id</th>
